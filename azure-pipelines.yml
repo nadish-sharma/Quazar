@@ -1,0 +1,21 @@
+stages:
+   - quality
+   - build
+   
+build:
+   stage: build
+   script:
+      - make compileProject
+   artifacts:
+      paths:
+         - quazar
+
+staticAnalysis:
+   stage: quality
+   script:
+      - make static
+
+style:
+   stage: quality
+   script:
+      - make style
