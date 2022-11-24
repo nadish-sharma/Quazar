@@ -1,8 +1,7 @@
 # Quazar
 
-REQUIREMENTS
 GAME
-The text-based game is required to meet the following minimum requirements:
+Description of the game:
 
 1. Play Quazar. The game will support playing Quazar.
   * The game is similar to Blackjack or 21.
